@@ -1,0 +1,145 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #4b2e1e;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4b2e1e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f1c27d;
+}
+
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+/* Introdução */
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    color: #4b2e1e;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #6b4f33;
+}
+
+/* Filtro */
+.filtro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filtro select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+/* Catálogo de Livros */
+#catalogo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#catalogo h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#livros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.livro {
+    background-color: #f1c27d;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.livro h3 {
+    font-size: 20px;
+    color: #4b2e1e;
+    margin-bottom: 10px;
+}
+
+.livro p {
+    font-size: 16px;
+    color: #6b4f33;
+}
+
+.livro button {
+    background-color: #4b2e1e;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.livro button:hover {
+    background-color: #f1c27d;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4b2e1e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
